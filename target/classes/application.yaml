@@ -1,0 +1,16 @@
+server:
+  port: 8090
+  forward-headers-strategy: native
+  compression:
+    enabled: false
+    mime-types: application/javascript,text/css,application/json,application/xml,text/html,text/xml,text/plain
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  devtools:
+    add-properties: false
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource

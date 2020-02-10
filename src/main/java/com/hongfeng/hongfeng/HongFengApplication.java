@@ -1,0 +1,13 @@
+package com.hongfeng.hongfeng;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HongFengApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HongFengApplication.class, args);
+	}
+
+}
